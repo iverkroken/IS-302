@@ -1,0 +1,43 @@
+.page {
+  padding-top: calc(var(--nav-h) + 50px);
+  padding-bottom: 120px;
+  min-height: 100svh;
+}
+
+.page__header {
+  margin-bottom: 48px;
+}
+
+.page__tag {
+  font-size: 0.75rem;
+  color: var(--accent);
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  margin-bottom: 16px;
+}
+
+.page__title {
+  font-size: clamp(2.5rem, 5vw, 5rem);
+}
+
+.page__body {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  max-width: 720px;
+}
+
+.page__body p {
+  font-size: 1.05rem;
+  color: var(--silver);
+  line-height: 1.75;
+}
+
+.page__placeholder {
+  font-size: 0.8rem !important;
+  color: var(--mist) !important;
+  margin-top: 40px;
+  border: 1px dashed var(--fog);
+  padding: 20px 24px;
+  border-radius: 8px;
+}

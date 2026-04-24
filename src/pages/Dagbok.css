@@ -1,0 +1,217 @@
+.diary-toolbar {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  margin-bottom: 32px;
+}
+
+.diary-saved {
+  font-size: 0.75rem;
+  color: var(--accent);
+  letter-spacing: 0.06em;
+  opacity: 0.85;
+}
+
+.diary-empty {
+  font-size: 0.85rem;
+  color: var(--mist);
+  padding: 40px 0;
+  letter-spacing: 0.03em;
+}
+
+/* ── List ──────────────────────────────────────────────────────── */
+.diary-list {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.diary-entry {
+  display: grid;
+  grid-template-columns: 140px 1fr auto;
+  align-items: start;
+  gap: 32px;
+  padding: 28px 0;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.06);
+}
+
+.diary-entry__meta {
+  padding-top: 4px;
+}
+
+.diary-entry__week {
+  font-size: 0.75rem;
+  color: var(--accent);
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  margin-bottom: 4px;
+}
+
+.diary-entry__date {
+  font-size: 0.78rem;
+  color: var(--silver);
+}
+
+.diary-entry__title {
+  font-size: 1.3rem;
+  color: var(--snow);
+  margin-bottom: 10px;
+}
+
+.diary-entry__body {
+  font-size: 0.95rem;
+  color: var(--silver);
+  line-height: 1.75;
+  white-space: pre-wrap;
+}
+
+.diary-entry__actions {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  padding-top: 4px;
+}
+
+/* ── Form ──────────────────────────────────────────────────────── */
+.diary-form {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  background: var(--ash);
+  border: 1px solid rgba(255, 255, 255, 0.07);
+  border-radius: 12px;
+  padding: 28px 32px;
+  margin-bottom: 12px;
+}
+
+.diary-form__row {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 12px;
+}
+
+.diary-form__input,
+.diary-form__textarea {
+  background: var(--fog);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 8px;
+  color: var(--light);
+  font-family: var(--font-body);
+  font-size: 0.9rem;
+  padding: 10px 14px;
+  outline: none;
+  transition: border-color 0.2s;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.diary-form__input::placeholder,
+.diary-form__textarea::placeholder {
+  color: var(--silver);
+  opacity: 0.6;
+}
+
+.diary-form__input:focus,
+.diary-form__textarea:focus {
+  border-color: rgba(232, 255, 71, 0.4);
+}
+
+.diary-form__textarea {
+  resize: vertical;
+  line-height: 1.6;
+}
+
+.diary-form__actions {
+  display: flex;
+  gap: 10px;
+  margin-top: 4px;
+}
+
+/* ── Buttons ───────────────────────────────────────────────────── */
+.diary-btn {
+  font-family: var(--font-body);
+  font-size: 0.82rem;
+  font-weight: 500;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  padding: 7px 14px;
+  transition: all 0.2s;
+  letter-spacing: 0.02em;
+}
+
+.diary-btn--add {
+  background: var(--accent);
+  color: var(--ink);
+  font-size: 0.88rem;
+  padding: 9px 18px;
+}
+
+.diary-btn--add:hover {
+  background: var(--glow);
+}
+
+.diary-btn--submit {
+  background: var(--accent);
+  color: var(--ink);
+}
+
+.diary-btn--submit:hover {
+  background: var(--glow);
+}
+
+.diary-btn--cancel {
+  background: transparent;
+  color: var(--silver);
+  border: 1px solid rgba(255, 255, 255, 0.12);
+}
+
+.diary-btn--cancel:hover {
+  color: var(--light);
+  border-color: rgba(255, 255, 255, 0.25);
+}
+
+.diary-btn--edit {
+  background: rgba(255, 255, 255, 0.06);
+  color: var(--silver);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  white-space: nowrap;
+}
+
+.diary-btn--edit:hover {
+  color: var(--light);
+  background: rgba(255, 255, 255, 0.1);
+}
+
+.diary-btn--delete {
+  background: transparent;
+  color: rgba(255, 80, 80, 0.7);
+  border: 1px solid rgba(255, 80, 80, 0.2);
+  white-space: nowrap;
+}
+
+.diary-btn--delete:hover {
+  background: rgba(255, 80, 80, 0.1);
+  color: rgba(255, 100, 100, 1);
+  border-color: rgba(255, 80, 80, 0.5);
+}
+
+/* ── Responsive ────────────────────────────────────────────────── */
+@media (max-width: 768px) {
+  .diary-entry {
+    grid-template-columns: 1fr;
+    gap: 12px;
+  }
+
+  .diary-entry__actions {
+    flex-direction: row;
+  }
+
+  .diary-form {
+    padding: 20px;
+  }
+
+  .diary-form__row {
+    grid-template-columns: 1fr;
+  }
+}

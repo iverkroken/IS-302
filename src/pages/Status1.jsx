@@ -14,7 +14,7 @@ export default function Status1() {
         </div>
         <div className="page__body" ref={bodyRef}>
           <p>
-            Første statusrapport — hva vi har gjort, hva vi har lært og hva
+            Første statusrapport: hva vi har gjort, hva vi har lært og hva
             som er neste steg i praksis.
           </p>
           <p className="page__placeholder mono">[ Innhold legges til ]</p>

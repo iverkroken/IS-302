@@ -14,7 +14,7 @@ export default function Oppgave() {
         </div>
         <div className="page__body" ref={bodyRef}>
           <p>
-            Her beskrives praksisoppgaven vi har fått tildelt — mål, scope,
+            Her beskrives praksisoppgaven vi har fått tildelt som vi inneholde mål, scope,
             forventninger og leveranser gjennom semesteret.
           </p>
           <p className="page__placeholder mono">[ Innhold legges til ]</p>

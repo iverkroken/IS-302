@@ -43,7 +43,7 @@ export default function Home() {
             praksisemnet, fra oppstart til refleksjon.
           </p>
           <div className="hero__cta" ref={ctaRef}>
-            <Link to="/om-oss" className="btn btn--primary">Les mer om oss</Link>
+            <Link to="/om-oss" className="btn btn--primary">Introduksjons-video</Link>
             <Link to="/team"   className="btn btn--ghost">Møt teamet</Link>
           </div>
         </div>

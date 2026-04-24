@@ -14,7 +14,7 @@ export default function Status2() {
         </div>
         <div className="page__body" ref={bodyRef}>
           <p>
-            Andre statusrapport — oppdatert status, utfordringer og fremgang
+            Andre statusrapport: oppdatert status, utfordringer og fremgang
             midtveis i semesteret.
           </p>
           <p className="page__placeholder mono">[ Innhold legges til ]</p>

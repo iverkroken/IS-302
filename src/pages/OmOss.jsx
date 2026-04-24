@@ -14,9 +14,9 @@ export default function OmOss() {
         </div>
         <div className="page__body" ref={bodyRef}>
           <p>
-            Vi er en gruppe IT-studenter ved Universitetet i Agder som tar
-            praksisemnet IS-302. Her kommer en beskrivelse av gruppen, kontekst
-            rundt praksisstedet og hva vi ønsker å lære.
+            Vi er en gruppe med fem IT-studenter ved Universitetet i Agder som tar
+            praksisemnet IS-302. Her presenterer vi gruppen gjennom en kort introduksjonsvideo.
+            Mer informasjon om hvert gruppemedlem finner du på Team-siden.
           </p>
           <p className="page__placeholder mono">[ Innhold legges til ]</p>
         </div>

@@ -12,8 +12,8 @@ export const teamMembers = [
   {
     id: 2,
     name: 'Tobias Olsen Nodland',
-    subtitle: '',
-    age: '',
+    subtitle: 'IT og informasjonssystemer, UiA / 4. semester',
+    age: '24 år, fra Tvedestrand',
     bio: '',
     hobbies: [],
     image: '/images/tobias-linkedin.jpg',
@@ -22,8 +22,8 @@ export const teamMembers = [
   {
     id: 3,
     name: 'Sivert Svanes Sæstad',
-    subtitle: '',
-    age: '',
+    subtitle: 'IT og informasjonssystemer, UiA / 4. semester',
+    age: '24 år, fra Egersund',
     bio: '',
     hobbies: [],
     image: '/images/sivert-linkedin.jpg',
@@ -32,8 +32,8 @@ export const teamMembers = [
   {
     id: 4,
     name: 'Eira Bitnes Vikestøl',
-    subtitle: '',
-    age: '',
+    subtitle: 'IT og informasjonssystemer, UiA / 4. semester',
+    age: '23 år, fra Sandvika',
     bio: '',
     hobbies: [],
     image: '/images/Eira-linkedin.jpg',
@@ -42,8 +42,8 @@ export const teamMembers = [
   {
     id: 5,
     name: 'Oda Elise Aanestad',
-    subtitle: '',
-    age: '',
+    subtitle: 'IT og informasjonssystemer, UiA / 4. semester',
+    age: '20 år, fra Varhaug',
     bio: '',
     hobbies: [],
     image: '/images/oda-linkedin.jpg',

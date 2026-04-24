@@ -1,3 +1,4 @@
+import React from 'react'
 import './TeamCard.css'
 
 const LinkedInIcon = () => (
@@ -41,7 +42,12 @@ export default function TeamCard({ member }) {
       <div className="team-card__body">
         <div className="team-card__content">
           <h3 className="team-card__name">{name}</h3>
-          {subtitle && <p className="team-card__subtitle mono">{subtitle}</p>}
+          {subtitle && <p className="team-card__subtitle mono">{subtitle.split('\n').map((line, index, arr) => (
+            <React.Fragment key={index}>
+              {line}
+              {index < arr.length - 1 && <br />}
+            </React.Fragment>
+          ))}</p>}
           {age      && <p className="team-card__age">{age}</p>}
           {bio      && <p className="team-card__bio">{bio}</p>}
           <InterestsList items={hobbies} />

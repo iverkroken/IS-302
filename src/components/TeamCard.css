@@ -71,7 +71,8 @@
   color: var(--accent);
   letter-spacing: 0.03em;
   margin: 0;
-  line-height: 1.4;
+  line-height: 1.6;
+  white-space: normal;
 }
 
 .team-card__age {

@@ -74,6 +74,7 @@
   border-radius: 6px;
   transition: color 0.2s, background 0.2s;
   text-decoration: none;
+  position: relative;
 }
 
 .navbar__link:hover {
@@ -83,6 +84,19 @@
 
 .navbar__link--active {
   color: var(--accent);
+  font-weight: 600;
+}
+
+.navbar__link--active::after {
+  content: '';
+  position: absolute;
+  bottom: 2px;
+  left: 12px;
+  right: 12px;
+  height: 2px;
+  background: var(--accent);
+  border-radius: 2px;
+  box-shadow: 0 0 6px rgba(232, 255, 71, 0.5);
 }
 
 /* Burger */

@@ -10,7 +10,7 @@ export default function Team() {
 
   return (
     <div className="page">
-      <div className="container">
+      <div className="container--wide">
         <div className="page__header" ref={headRef}>
           <p className="page__tag mono">Teamet</p>
           <h1 className="page__title">Møt gruppen</h1>

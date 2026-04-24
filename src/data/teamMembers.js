@@ -24,7 +24,7 @@ export const teamMembers = [
     name: 'Sivert Svanes Sæstad',
     subtitle: 'IT og informasjonssystemer, UiA / 4. semester',
     age: '24 år, fra Egersund',
-    bio: 'Motiveres av å bygge løsninger fra bunnen av og finne smartere måter å gjøre ting på. Setter pris på å lære noe nytt i ett prosjekt og kunne dra nytte av det i et annet. Liker å ha god oversikt over det jeg holder på med, og jobber gjerne tett med andre for å nå et felles mål.',
+    bio: 'Motiveres av å bygge løsninger fra bunnen av og finne smartere måter å gjøre ting på. Setter pris på å lære nye teknikker og ta dem i bruk i prosjektene jeg driver på med, og jobber gjerne tett med andre for å nå et felles mål.',
     hobbies: ['Jogging', 'Lesing', 'Klatring'],
     image: '/images/sivert-linkedin.jpg',
     linkedin: 'https://www.linkedin.com/in/sivert-svanes-s%C3%A6stad-615aa1262/',

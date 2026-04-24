@@ -51,42 +51,15 @@
 }
 
 .team-card__content {
-  flex: 1;
   display: flex;
   flex-direction: column;
   gap: 8px;
 }
 
-.team-card__name {
-  font-family: var(--font-heading);
-  font-size: clamp(0.9rem, 1.1vw, 1.1rem);
-  font-weight: 700;
-  color: var(--snow);
-  margin: 0;
-  line-height: 1.25;
-}
-
-.team-card__subtitle {
-  font-size: 0.7rem;
-  color: var(--accent);
-  letter-spacing: 0.03em;
-  margin: 0;
-  line-height: 1.6;
-  white-space: normal;
-}
-
-.team-card__age {
-  font-size: 0.82rem;
-  color: var(--silver);
-  margin: 0;
-}
-
-.team-card__bio {
-  font-size: 0.82rem;
-  color: var(--silver);
-  line-height: 1.7;
-  margin: 0;
-  margin-top: 4px;
+.team-card__links {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
 }
 
 /* ── Interests ───────────────────────────────────────────────────── */
@@ -125,8 +98,14 @@
   line-height: 1.3;
 }
 
-/* ── LinkedIn ────────────────────────────────────────────────────── */
-.team-card__linkedin {
+/* ── Links ───────────────────────────────────────────────────────── */
+.team-card__links {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.team-card__link {
   display: inline-flex;
   align-items: center;
   justify-content: center;
@@ -134,18 +113,30 @@
   font-size: 0.82rem;
   font-weight: 500;
   color: var(--light);
-  background: rgba(10, 102, 194, 0.12);
-  border: 1px solid rgba(10, 102, 194, 0.3);
   padding: 8px 14px;
   border-radius: 7px;
   text-decoration: none;
   transition: background 0.2s, border-color 0.2s;
   width: 100%;
   box-sizing: border-box;
-  margin-top: auto;
 }
 
-.team-card__linkedin:hover {
+.team-card__link--linkedin {
+  background: rgba(10, 102, 194, 0.12);
+  border: 1px solid rgba(10, 102, 194, 0.3);
+}
+
+.team-card__link--linkedin:hover {
   background: rgba(10, 102, 194, 0.28);
   border-color: rgba(10, 102, 194, 0.6);
+}
+
+.team-card__link--github {
+  background: rgba(255, 255, 255, 0.06);
+  border: 1px solid rgba(255, 255, 255, 0.14);
+}
+
+.team-card__link--github:hover {
+  background: rgba(255, 255, 255, 0.14);
+  border-color: rgba(255, 255, 255, 0.28);
 }

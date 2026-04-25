@@ -299,3 +299,11 @@
 .home-link-card:hover .home-link-card__arrow {
   transform: translateX(4px);
 }
+
+.video-embed {
+  width: 100%;
+  max-width: 100dvw;
+  height: auto;
+  border-radius: 16px;
+  display: block;
+}

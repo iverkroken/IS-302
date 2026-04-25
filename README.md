@@ -7,11 +7,13 @@ Gruppen presenterer seg selv, oppgaven, fremdrift og refleksjoner gjennom en int
 
 ## 1. Demo
 
+https://github.com/user-attachments/assets/0fac8732-d98b-4527-8358-e825c3c265c4
+
 > [!IMPORTANT]
 > <details>
 > <summary style="font-size: 14px; font-weight: bold">Live-side</summary>
 >
-> Kjøres lokalt via Vite — se oppsett nedenfor.
+> [Gruppeside](https://iverkroken.github.io/IS-302/)
 >
 > </details>
 

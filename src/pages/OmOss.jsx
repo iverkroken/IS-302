@@ -32,7 +32,7 @@ export default function OmOss() {
           eller en YouTube/Vimeo <iframe> når videoen er klar.
         */}
         <div className="video-wrap" ref={videoRef}>
-          <div className="video-placeholder">
+          <video controls src="/videos/intro.mp4" className="video-embed">
             <div className="video-placeholder__icon" aria-hidden="true">
               <svg width="52" height="52" viewBox="0 0 52 52" fill="none">
                 <circle cx="26" cy="26" r="25" stroke="rgba(232,255,71,0.35)" strokeWidth="1.5"/>
@@ -40,7 +40,7 @@ export default function OmOss() {
               </svg>
             </div>
             <p className="video-placeholder__label mono">Introduksjonsvideo kommer</p>
-          </div>
+          </video>
         </div>
 
         <section className="projects-section" ref={projRef}>

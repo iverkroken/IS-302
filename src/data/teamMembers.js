@@ -2,7 +2,7 @@ export const teamMembers = [
   {
     id: 1,
     name: 'Iver Kroken',
-    subtitle: 'IT og informasjonssystemer, UiA / 4. semester',
+    subtitle: 'IT og informasjonssystemer, UiA / 4. semester\n\n\n',
     age: '23 år, fra Brumunddal.',
     bio: 'Opptatt av hvordan teknologi påvirker mennesker og systemer i praksis. Jobber strukturert, trives godt i team og liker å forstå det jeg holder på med skikkelig. Særlig interessert i AI og medisinsk teknologi.',
     hobbies: ['Matlaging', 'Frisbeegolf', 'Klatring'],
@@ -13,7 +13,8 @@ export const teamMembers = [
   {
     id: 2,
     name: 'Tobias Olsen Nodland',
-    subtitle: 'Ingeniørforkurs, UiA\nMaster i økonomi og adm., UiA / 1. år\nIT og informasjonssystemer, UiA / 4. semester',    age: '23 år, fra Tvedestrand',
+    subtitle: 'Ingeniørforkurs, UiA\nMaster i økonomi og adm., UiA / 1. år\nIT og informasjonssystemer, UiA / 4. semester',
+    age: '23 år, fra Tvedestrand',
     bio: 'Jeg er liker å lære og forstå hvordan ting fungerer fra grunnen, slik at problemer kan løses på en informert og effektiv måte. Jeg er spesielt interessert i å utvikle løsninger med god en brukeropplevelse både for brukere og medarbeidere. Veldig interessert i systemprogrammering',
     hobbies: ['Natur fotografi', 'Matlaging', 'Film'],
     image: '/images/tobias-linkedin.jpg',
@@ -23,7 +24,7 @@ export const teamMembers = [
   {
     id: 3,
     name: 'Sivert Svanes Sæstad',
-    subtitle: 'IT og informasjonssystemer, UiA / 4. semester',
+    subtitle: 'IT og informasjonssystemer, UiA / 4. semester\n\n\n',
     age: '24 år, fra Egersund',
     bio: 'Motiveres av å bygge løsninger fra bunnen av og finne smartere måter å gjøre ting på. Setter pris på å lære nye teknikker og ta dem i bruk i prosjektene jeg driver på med, og jobber gjerne tett med andre for å nå et felles mål.',
     hobbies: ['Jogging', 'Lesing', 'Klatring'],
@@ -34,7 +35,7 @@ export const teamMembers = [
   {
     id: 4,
     name: 'Eira Bitnes Vikestøl',
-    subtitle: 'IT og informasjonssystemer, UiA / 4. semester',
+    subtitle: 'IT og informasjonssystemer, UiA / 4. semester\n\n\n',
     age: '23 år, fra Sandvika',
     bio: 'Interessert i UX-design, prosjektarbeid og webutvikling. Liker å lære nye ting og sette meg inn i hvordan systemer fungerer i praksis. Trives i samarbeid med andre, men også med å jobbe selvstendig. ',
     hobbies: ['Trening', 'Hekling', 'Bake'],
@@ -45,7 +46,7 @@ export const teamMembers = [
   {
     id: 5,
     name: 'Oda Elise Aanestad',
-    subtitle: 'IT og informasjonssystemer, UiA / 4. semester',
+    subtitle: 'IT og informasjonssystemer, UiA / 4. semester\n\n\n',
     age: '21 år, fra Varhaug',
     bio: 'Jeg er interessert i hvordan teknologi implementeres i hverdagen, særlig samspillet mellom mennesker og teknologi. Jeg er strukturert og motivert for å lære nye ting, og synes utviklingen innen AI er spesielt spennende.',
     hobbies: ['Trene','Golf','Lage mat'],

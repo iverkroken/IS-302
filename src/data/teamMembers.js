@@ -35,8 +35,7 @@ export const teamMembers = [
   {
     id: 4,
     name: 'Eira Bitnes Vikestøl',
-    subtitle: 'IT og informasjonssystemer, UiA / 4. semester\n\n\n',
-    age: '23 år, fra Sandvika',
+    subtitle: 'IT og informasjonssystemer, UiA / 4. semester\nUtveksling ved Chung-Ang University i Seoul',    age: '23 år, fra Sandvika',
     bio: 'Interessert i UX-design, prosjektarbeid og webutvikling. Liker å lære nye ting og sette meg inn i hvordan systemer fungerer i praksis. Trives i samarbeid med andre, men også med å jobbe selvstendig. ',
     hobbies: ['Trening', 'Hekling', 'Bake'],
     image: `${import.meta.env.BASE_URL}images/Eira-linkedin.jpg`,
@@ -46,7 +45,7 @@ export const teamMembers = [
   {
     id: 5,
     name: 'Oda Elise Aanestad',
-    subtitle: 'IT og informasjonssystemer, UiA / 4. semester\n\n\n',
+    subtitle: 'IT og informasjonssystemer, UiA / 4. semester\nUtveksling ved Chung-Ang University i Seoul',
     age: '21 år, fra Varhaug',
     bio: 'Jeg er interessert i hvordan teknologi implementeres i hverdagen, særlig samspillet mellom mennesker og teknologi. Jeg er strukturert og motivert for å lære nye ting, og synes utviklingen innen AI er spesielt spennende.',
     hobbies: ['Trene','Golf','Lage mat'],

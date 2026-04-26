@@ -1,66 +1,48 @@
 ﻿.btn-back {
   background: none;
   border: none;
-  color: var(--color-primary);
-  font-size: 1rem;
+  color: var(--accent);
+  font-size: 0.95rem;
   cursor: pointer;
   margin-bottom: 2rem;
   transition: opacity 0.2s;
   font-family: inherit;
   padding: 0.5rem 0;
+  font-weight: 500;
 }
 
 .btn-back:hover {
   opacity: 0.7;
 }
 
+hr, .hr {
+  border: none;
+  border-top: 1px solid rgba(255, 255, 255, 0.15);
+  margin: 2rem 0;
+}
+
 .bio-content {
   display: flex;
   flex-direction: column;
-  gap: 2rem;
-  max-width: 800px;
-  margin: 0 auto;
+  gap: .5rem;
+  margin-top: .5rem;
 }
 
 .bio-section {
-  border-top: 1px solid var(--color-border);
-  padding-top: 2rem;
+  padding-bottom: 2rem;
 }
 
 .bio-section h2 {
-  margin-top: 0;
-  margin-bottom: 1rem;
-  font-size: 1.5rem;
-  text-align: center;
+  margin: 0 0 1rem 0;
+  font-size: clamp(1.6rem, 2.5vw, 2.2rem);
+  color: var(--snow);
 }
 
 .bio-section p {
-  line-height: 1.8;
-  color: var(--color-text);
-  text-align: center;
-}
-
-.contact-links {
-  display: flex;
-  gap: 1rem;
-  flex-wrap: wrap;
-  justify-content: center;
-}
-
-.contact-link {
-  display: inline-flex;
-  align-items: center;
-  padding: 0.75rem 1.5rem;
-  background: var(--color-primary);
-  color: white;
-  text-decoration: none;
-  border-radius: 8px;
-  transition: opacity 0.2s;
-  font-weight: 500;
-}
-
-.contact-link:hover {
-  opacity: 0.85;
+  font-size: 1.05rem;
+  color: var(--silver);
+  line-height: 1.75;
+  margin: 0;
 }
 
 @media (max-width: 768px) {
@@ -69,7 +51,7 @@
   }
 
   .bio-section p {
-    font-size: 0.95rem;
+    font-size: 1rem;
   }
 }
 
@@ -78,13 +60,7 @@
     font-size: 1.1rem;
   }
 
-  .contact-links {
-    flex-direction: column;
-  }
-
-  .contact-link {
-    width: 100%;
-    justify-content: center;
+  .bio-section p {
+    font-size: 0.95rem;
   }
 }
-

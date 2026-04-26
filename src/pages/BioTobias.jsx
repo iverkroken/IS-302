@@ -14,33 +14,19 @@ export default function BioTobias() {
 
   return (
     <div className="page">
-      <div className="container--wide">
+      <div className="container">
         <button className="btn-back" onClick={() => navigate('/team')}>
           ← Tilbake til teamet
         </button>
 
         <BioHeader member={member} />
-
+        <hr/>
         <div className="bio-content">
           <section className="bio-section">
             <h2>Om meg</h2>
             <p>
-              Jeg liker å lære og forstå hvordan ting fungerer fra grunnen, slik at problemer kan løses
-              på en informert og effektiv måte. Jeg er spesielt interessert i å utvikle løsninger med god
-              brukeropplevelse både for brukere og medarbeidere. Veldig interessert i systemprogrammering.
+              Mega balls
             </p>
-          </section>
-
-          <section className="bio-section">
-            <h2>Kontakt</h2>
-            <div className="contact-links">
-              <a href={member.linkedin} target="_blank" rel="noopener noreferrer" className="contact-link">
-                LinkedIn
-              </a>
-              <a href={member.github} target="_blank" rel="noopener noreferrer" className="contact-link">
-                GitHub
-              </a>
-            </div>
           </section>
         </div>
       </div>

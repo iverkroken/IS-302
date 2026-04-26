@@ -6,6 +6,17 @@
   align-items: stretch;
 }
 
+.team-card-wrapper {
+  cursor: pointer;
+  transition: transform 0.2s ease;
+  display: flex;
+  height: 100%;
+}
+
+.team-card-wrapper:hover {
+  transform: translateY(-4px);
+}
+
 @media (max-width: 1100px) {
   .team-grid {
     grid-template-columns: repeat(3, 1fr);

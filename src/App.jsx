@@ -5,6 +5,7 @@ import Home        from './pages/Home'
 import OmOss       from './pages/OmOss'
 import Oppgave     from './pages/Oppgave'
 import Team        from './pages/Team'
+import BioTobias   from './pages/BioTobias'
 import Status1     from './pages/Status1'
 import Status2     from './pages/Status2'
 import Dagbok      from './pages/Dagbok'
@@ -20,6 +21,7 @@ export default function App() {
           <Route path="/om-oss"     element={<OmOss />} />
           <Route path="/oppgave"    element={<Oppgave />} />
           <Route path="/team"       element={<Team />} />
+          <Route path="/team/2"     element={<BioTobias />} />
           <Route path="/status-1"   element={<Status1 />} />
           <Route path="/status-2"   element={<Status2 />} />
           <Route path="/dagbok"     element={<Dagbok />} />

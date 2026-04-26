@@ -79,9 +79,9 @@
   letter-spacing: 0.03em;
   margin: 0;
   line-height: 1.6;
-  white-space: normal;
-
+  white-space: pre-line;
   word-break: keep-all;
+  min-height: 76px;
 }
 
 .team-card__age {

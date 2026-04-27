@@ -30,10 +30,16 @@ export default function BioTobias() {
   ]
 
   const tobiasImages = [
-    `${import.meta.env.BASE_URL}images/tobias-linkedin.jpg`,
-    `${import.meta.env.BASE_URL}images/tobias-linkedin.jpg`,
-    `${import.meta.env.BASE_URL}images/tobias-linkedin.jpg`,
-    `${import.meta.env.BASE_URL}images/tobias-linkedin.jpg`,
+    `${import.meta.env.BASE_URL}images/tobias/R1-02449-032A.JPG`,
+    `${import.meta.env.BASE_URL}images/tobias/R1-02063-022A.JPG`,
+    `${import.meta.env.BASE_URL}images/tobias/R1-02064-025A.JPG`,
+    `${import.meta.env.BASE_URL}images/tobias/R1-04998-016A.JPG`,
+    `${import.meta.env.BASE_URL}images/tobias/R1-04997-0031.JPG`,
+    `${import.meta.env.BASE_URL}images/tobias/C004321-R1-32-33.JPG`,
+    `${import.meta.env.BASE_URL}images/tobias/C004321-R1-25-26.JPG`,
+    `${import.meta.env.BASE_URL}images/tobias/C004061-R1-32-33.JPG`,
+
+
   ]
 
   if (!member) {

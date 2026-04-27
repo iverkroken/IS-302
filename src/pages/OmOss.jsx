@@ -1,5 +1,6 @@
 import { useReveal } from '../hooks/useReveal'
 import { projects } from '../data/projects'
+import Projects from '../components/Projects'
 import './Page.css'
 import './OmOss.css'
 
@@ -7,7 +8,6 @@ export default function OmOss() {
   const headRef  = useReveal()
   const bodyRef  = useReveal({ delay: 0.1 })
   const videoRef = useReveal({ delay: 0.15 })
-  const projRef  = useReveal({ delay: 0.2 })
 
   return (
     <div className="page">
@@ -44,31 +44,12 @@ export default function OmOss() {
           </video>
         </div>
 
-        <section className="projects-section" ref={projRef}>
-          <h2 className="projects-section__heading">Tidligere prosjekter</h2>
-          <p className="projects-section__sub">
-            Et utvalg av prosjekter vi har jobbet med tidligere i studiet.
-          </p>
-          <div className="projects-grid">
-            {projects.map(p => (
-              <a
-                key={p.id}
-                href={p.github}
-                target="_blank"
-                rel="noreferrer"
-                className="project-card"
-              >
-                <div className="project-card__body">
-                  <h3 className="project-card__title">{p.title}</h3>
-                  <p className="project-card__desc">{p.description}</p>
-                </div>
-                <div className="project-card__footer">
-                  <span className="project-card__cta mono">Se på GitHub →</span>
-                </div>
-              </a>
-            ))}
-          </div>
-        </section>
+        <Projects
+          projects={projects}
+          title="Tidligere prosjekter"
+          subtitle="Et utvalg av prosjekter vi har jobbet med tidligere i studiet."
+          delay={0.2}
+        />
 
       </div>
     </div>

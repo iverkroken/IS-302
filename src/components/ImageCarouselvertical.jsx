@@ -1,6 +1,6 @@
 ﻿import { useState } from 'react'
 import { createPortal } from 'react-dom'
-import './ImageCarouselVertical.css'
+import './ImageCarouselvertical.css'
 
 export default function ImageCarouselVertical({ images, title }) {
     const [currentIndex, setCurrentIndex] = useState(0)

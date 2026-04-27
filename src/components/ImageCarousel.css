@@ -139,7 +139,10 @@
 /* ── Modal (Fullscreen) ──────────────────────────────────────────── */
 .image-carousel__modal {
   position: fixed;
-  inset: 0;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
   background: rgba(0, 0, 0, 0.95);
   display: flex;
   align-items: center;
@@ -147,6 +150,8 @@
   z-index: 9999;
   backdrop-filter: blur(4px);
   animation: fadeIn 0.3s ease;
+  margin: 0;
+  padding: 0;
 }
 
 @keyframes fadeIn {
@@ -159,8 +164,8 @@
 }
 
 .image-carousel__modal-image {
-  max-width: 90vw;
-  max-height: 90vh;
+  max-width: 85vw;
+  max-height: 85vh;
   object-fit: contain;
   display: block;
   border-radius: 8px;
@@ -168,8 +173,8 @@
 
 .image-carousel__close-btn {
   position: absolute;
-  top: 20px;
-  right: 20px;
+  top: 7.5dvh;
+  right: 16dvw;
   background: rgba(255, 255, 255, 0.1);
   border: 1px solid rgba(255, 255, 255, 0.3);
   color: white;
@@ -213,11 +218,11 @@
 }
 
 .image-carousel__modal-nav--prev {
-  left: 20px;
+  left: 16dvw;
 }
 
 .image-carousel__modal-nav--next {
-  right: 20px;
+  right: 16dvw;
 }
 
 .image-carousel__modal-info {

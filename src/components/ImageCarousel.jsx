@@ -1,9 +1,25 @@
-﻿import { useState } from 'react'
+﻿import { useState, useRef, useEffect } from 'react'
+import { createPortal } from 'react-dom'
 import './ImageCarousel.css'
 
 export default function ImageCarousel({ images, title }) {
   const [currentIndex, setCurrentIndex] = useState(0)
   const [isExpanded, setIsExpanded] = useState(false)
+  const carouselRef = useRef(null)
+
+  useEffect(() => {
+    if (isExpanded) {
+      // Lock scroll
+      document.body.style.overflow = 'hidden'
+    } else {
+      // Unlock scroll
+      document.body.style.overflow = 'unset'
+    }
+
+    return () => {
+      document.body.style.overflow = 'unset'
+    }
+  }, [isExpanded])
 
   const goToPrevious = () => {
     setCurrentIndex((prevIndex) =>
@@ -33,7 +49,7 @@ export default function ImageCarousel({ images, title }) {
 
   return (
     <>
-      <div className="image-carousel">
+      <div className="image-carousel" ref={carouselRef}>
         <div className="image-carousel__container">
           <div className="image-carousel__frame">
             <img
@@ -89,8 +105,11 @@ export default function ImageCarousel({ images, title }) {
         )}
       </div>
 
-      {isExpanded && (
-        <div className="image-carousel__modal" onClick={closeExpanded}>
+      {isExpanded && createPortal(
+        <div
+          className="image-carousel__modal"
+          onClick={closeExpanded}
+        >
           <button
             className="image-carousel__close-btn"
             onClick={closeExpanded}
@@ -131,7 +150,8 @@ export default function ImageCarousel({ images, title }) {
           <div className="image-carousel__modal-info">
             {currentIndex + 1} / {images.length}
           </div>
-        </div>
+        </div>,
+        document.body
       )}
     </>
   )

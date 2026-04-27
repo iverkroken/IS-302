@@ -27,8 +27,10 @@
   padding: 0;
 }
 
-html {
-  scroll-behavior: smooth;
+
+
+html::-webkit-scrollbar {
+  display: none;
 }
 
 body {

@@ -34,3 +34,11 @@
     grid-template-columns: 1fr;
   }
 }
+
+.team-subtext {
+  font-size: 1.1rem;
+  color: var(--silver);
+  text-align: left;
+  padding-left: 2px;
+  margin-bottom: -24px;
+}

@@ -5,6 +5,7 @@ import BioImageSection from '../components/BioImageSection.jsx'
 import BioCategoryWrapper from '../components/BioCategoryWrapper'
 import ImageCarousel from '../components/ImageCarousel'
 import Projects from '../components/Projects'
+import BioPageWrapper from '../components/BioPageWrapper'
 import './Page.css'
 import './BioPage.css'
 
@@ -49,31 +50,33 @@ export default function BioTobias() {
   return (
     <div className="page" >
       <div className="container" >
-        <button className="btn-back" onClick={() => navigate('/team')}>
-          ← Tilbake til teamet
-        </button>
+        <BioPageWrapper>
+          <button className="btn-back" onClick={() => navigate('/team')}>
+            ← Tilbake til teamet
+          </button>
 
-        <BioHeader member={member} />
+          <BioHeader member={member} />
 
-        <div className="bio-content">
-          <BioCategoryWrapper>
-            <BioImageSection title="Mine interesser" image={`${import.meta.env.BASE_URL}images/tobias-linkedin.jpg`}>
-              <p>Jeg er liker å lære og forstå hvordan ting fungerer fra grunnen, slik at problemer kan løses på en informert og effektiv måte. Jeg er spesielt interessert i å utvikle løsninger med god en brukeropplevelse både for brukere og medarbeidere. Veldig interessert i systemprogrammering</p>
-            </BioImageSection>
-            <br/>
-            <br/>
-            <BioImageSection title="Foto galleri">
-              <ImageCarousel images={tobiasImages} title="Tobias" />
-              <p>Her er noen av favoritt bildene jeg har tatt med ulike motiver.</p>
-            </BioImageSection>
-          </BioCategoryWrapper>
-          <Projects
-            projects={tobiasProjects}
-            title="Mine prosjekter"
-            subtitle="Selv om vi har som gruppe hatt mange prosjekter, holder jeg også på med noen på egenhånd."
-            delay={0}
-          />
-        </div>
+          <div className="bio-content">
+            <BioCategoryWrapper>
+              <BioImageSection title="Mine interesser" image={`${import.meta.env.BASE_URL}images/tobias-linkedin.jpg`}>
+                <p>Jeg er liker å lære og forstå hvordan ting fungerer fra grunnen, slik at problemer kan løses på en informert og effektiv måte. Jeg er spesielt interessert i å utvikle løsninger med god en brukeropplevelse både for brukere og medarbeidere. Veldig interessert i systemprogrammering</p>
+              </BioImageSection>
+              <br/>
+              <br/>
+              <BioImageSection title="Foto galleri">
+                <ImageCarousel images={tobiasImages} title="Tobias" />
+                <p>Her er noen av favoritt bildene jeg har tatt med ulike motiver.</p>
+              </BioImageSection>
+            </BioCategoryWrapper>
+            <Projects
+              projects={tobiasProjects}
+              title="Mine prosjekter"
+              subtitle="Selv om vi har som gruppe hatt mange prosjekter, holder jeg også på med noen på egenhånd."
+              delay={0}
+            />
+          </div>
+        </BioPageWrapper>
       </div>
     </div>
   )

@@ -4,6 +4,7 @@ import BioHeader from '../components/BioHeader'
 import './Page.css'
 import './BioPage.css'
 import BioCategoryWrapper from '../components/BioCategoryWrapper'
+import BioPageWrapper from '../components/BioPageWrapper'
 
 export default function BioSivert() {
   const navigate = useNavigate()
@@ -16,17 +17,19 @@ export default function BioSivert() {
   return (
     <div className="page">
       <div className="container">
-        <button className="btn-back" onClick={() => navigate('/team')}>
-          ← Tilbake til teamet
-        </button>
+        <BioPageWrapper>
+          <button className="btn-back" onClick={() => navigate('/team')}>
+            ← Tilbake til teamet
+          </button>
 
-        <BioHeader member={member} />
+          <BioHeader member={member} />
 
-        <div className="bio-content">
-          <BioCategoryWrapper>
+          <div className="bio-content">
+            <BioCategoryWrapper>
 
-          </BioCategoryWrapper>
-        </div>
+            </BioCategoryWrapper>
+          </div>
+        </BioPageWrapper>
       </div>
     </div>
   )

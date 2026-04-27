@@ -7,13 +7,6 @@
   color: var(--snow);
 }
 
-.bio-section__divider {
-  border: none;
-  border-top: 1px solid rgba(255, 255, 255, 0.15);
-  margin: 2rem 0 0 0;
-  padding: 0;
-  margin-bottom: -2rem;
-}
 
 .bio-section__wrapper {
   display: flex;

@@ -1,7 +1,9 @@
 ﻿import { useNavigate } from 'react-router-dom'
 import { teamMembers } from '../data/teamMembers'
 import BioHeader from '../components/BioHeader'
-import BioSection from '../components/BioSection'
+import BioImageSection from '../components/BioImageSection.jsx'
+import BioCategoryWrapper from '../components/BioCategoryWrapper'
+import ImageCarousel from '../components/ImageCarousel'
 import Projects from '../components/Projects'
 import './Page.css'
 import './BioPage.css'
@@ -27,6 +29,13 @@ export default function BioTobias() {
     },
   ]
 
+  const tobiasImages = [
+    `${import.meta.env.BASE_URL}images/tobias-linkedin.jpg`,
+    `${import.meta.env.BASE_URL}images/tobias-linkedin.jpg`,
+    `${import.meta.env.BASE_URL}images/tobias-linkedin.jpg`,
+    `${import.meta.env.BASE_URL}images/tobias-linkedin.jpg`,
+  ]
+
   if (!member) {
     return <div>Teammedlem ikke funnet</div>
   }
@@ -41,17 +50,24 @@ export default function BioTobias() {
         <BioHeader member={member} />
 
         <div className="bio-content">
-          <BioSection title="Mine interesser" image={`${import.meta.env.BASE_URL}images/tobias-linkedin.jpg`}>
-            <p>Jeg er liker å lære og forstå hvordan ting fungerer fra grunnen, slik at problemer kan løses på en informert og effektiv måte. Jeg er spesielt interessert i å utvikle løsninger med god en brukeropplevelse både for brukere og medarbeidere. Veldig interessert i systemprogrammering</p>
-          </BioSection>
+          <BioCategoryWrapper>
+            <BioImageSection title="Mine interesser" image={`${import.meta.env.BASE_URL}images/tobias-linkedin.jpg`}>
+              <p>Jeg er liker å lære og forstå hvordan ting fungerer fra grunnen, slik at problemer kan løses på en informert og effektiv måte. Jeg er spesielt interessert i å utvikle løsninger med god en brukeropplevelse både for brukere og medarbeidere. Veldig interessert i systemprogrammering</p>
+            </BioImageSection>
+            <br/>
+            <br/>
+            <BioImageSection title="Foto galleri">
+              <ImageCarousel images={tobiasImages} title="Tobias" />
+              <p>Her er noen av favoritt bildene jeg har tatt med ulike motiver.</p>
+            </BioImageSection>
+          </BioCategoryWrapper>
           <Projects
             projects={tobiasProjects}
             title="Mine prosjekter"
             subtitle="Selv om vi har som gruppe hatt mange prosjekter, holder jeg også på med noen på egenhånd."
-            delay={0.3}
+            delay={0}
           />
         </div>
-
       </div>
     </div>
   )

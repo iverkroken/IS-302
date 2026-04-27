@@ -1,7 +1,7 @@
 ﻿import { useReveal } from '../hooks/useReveal'
-import './BioSection.css'
+import './BioImageSection.css'
 
-export default function BioSection({ title, children, image }) {
+export default function BioImageSection({ title, children, image }) {
   const ref = useReveal()
 
   return (
@@ -17,7 +17,6 @@ export default function BioSection({ title, children, image }) {
           </div>
         )}
       </div>
-      <hr className="bio-section__divider" />
     </section>
   )
 }

@@ -56,6 +56,15 @@
 
 .bio-header__subtitle {
   margin: 0;
+  font-size: 0.7rem;
+  color: var(--accent);
+  letter-spacing: 0.03em;
+  white-space: pre-line;
+  line-height: 1.6;
+}
+
+.bio-header__bio {
+  margin: 0;
   color: var(--silver);
   white-space: pre-wrap;
   line-height: 1.7;
@@ -83,6 +92,12 @@
   transition: background 0.2s, border-color 0.2s;
   width: 100%;
   box-sizing: border-box;
+}
+
+.bio-header-divider {
+  border: none;
+  border-top: 1px solid rgba(255, 255, 255, 0.15);
+  padding: 0;
 }
 
 .bio-header__link-icon {
@@ -161,4 +176,3 @@
     font-size: 0.95rem;
   }
 }
-

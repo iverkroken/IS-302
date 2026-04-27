@@ -15,10 +15,10 @@
   opacity: 0.7;
 }
 
-hr, .hr {
+.bio-divider {
   border: none;
   border-top: 1px solid rgba(255, 255, 255, 0.15);
-  margin: 2rem 0;
+  padding: 0;
 }
 
 .bio-content {

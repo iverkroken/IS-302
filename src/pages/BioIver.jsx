@@ -55,7 +55,7 @@ export default function BioIver() {
 
                 <BioTextSection>
                   <p>
-                    Jeg liker å være i bevegelse, både fysisk og mentalt. Padel, frisbeegolf, klatring og sykling gir meg energi.
+                    Jeg er glad i å være i fysisk bevegelse gjennom ting som: Padel, frisbeegolf, klatring og sykling som gir meg energi.
                     Samtidig har jeg også en litt mer uventet side. Jeg elsker å danse, noe som startet tidlig med mye inspirasjon fra Michael Jackson.
                     Ved siden av det er jeg også glad i motorsykler og gaming, som gir en helt annen type fokus og avkobling.
                   </p>

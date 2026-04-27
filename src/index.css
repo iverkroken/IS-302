@@ -29,6 +29,15 @@
 
 html {
   scroll-behavior: smooth;
+  scroll-padding-top: 72px;
+  /* Hide scrollbar for Chrome, Safari, Opera, and Edge */
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
+
+
+html::-webkit-scrollbar {
+  display: none;
 }
 
 body {

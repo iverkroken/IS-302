@@ -24,8 +24,9 @@
 .bio-section__wrapper--with-image {
   display: grid;
   grid-template-columns: .8fr 1.5fr;
-  gap: 1rem;
+  gap: 2rem;
   align-items: start;
+  max-width: 100%;
 }
 
 .bio-section__content p {
@@ -43,16 +44,24 @@
   display: flex;
   justify-content: flex-end;
   align-items: start;
+  overflow: hidden;
+  border-radius: 12px;
+  width: 100%;
+  max-width: 700px;
+  margin-left: auto;
 }
 
 .bio-section__image {
   width: 100%;
-  max-width: 700px;
   height: auto;
   aspect-ratio: 6/4;
-  border-radius: 12px;
   object-fit: cover;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  transition: transform 0.6s ease;
+}
+
+.bio-section__image-container:hover .bio-section__image {
+  transform: scale(1.03);
 }
 
 @media (max-width: 768px) {

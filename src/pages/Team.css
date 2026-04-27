@@ -36,9 +36,12 @@
 }
 
 .team-subtext {
-  font-size: 1.1rem;
-  color: var(--silver);
+  font-size: .952rem;
   text-align: left;
   padding-left: 2px;
   margin-bottom: -24px;
+  color: var(--accent);
+  word-break: keep-all;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
 }

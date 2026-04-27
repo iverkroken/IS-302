@@ -17,6 +17,7 @@ export default function BioSection({ title, children, image }) {
           </div>
         )}
       </div>
+      <hr className="bio-section__divider" />
     </section>
   )
 }

@@ -41,10 +41,9 @@ export default function BioTobias() {
         <BioHeader member={member} />
 
         <div className="bio-content">
-          <BioSection title="Mine interesser" image='images/tobias-linkedin.jpg'>
+          <BioSection title="Mine interesser" image={`${import.meta.env.BASE_URL}images/tobias-linkedin.jpg`}>
             <p>Jeg er liker å lære og forstå hvordan ting fungerer fra grunnen, slik at problemer kan løses på en informert og effektiv måte. Jeg er spesielt interessert i å utvikle løsninger med god en brukeropplevelse både for brukere og medarbeidere. Veldig interessert i systemprogrammering</p>
           </BioSection>
-
           <Projects
             projects={tobiasProjects}
             title="Mine prosjekter"

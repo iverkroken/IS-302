@@ -1,11 +1,18 @@
 ﻿.bio-section {
-  padding-bottom: 2rem;
 }
 
 .bio-section h2 {
   margin: 0 0 1rem 0;
   font-size: clamp(1.6rem, 2.5vw, 2.2rem);
   color: var(--snow);
+}
+
+.bio-section__divider {
+  border: none;
+  border-top: 1px solid rgba(255, 255, 255, 0.15);
+  margin: 2rem 0 0 0;
+  padding: 0;
+  margin-bottom: -2rem;
 }
 
 .bio-section__wrapper {
@@ -20,7 +27,6 @@
   gap: 1rem;
   align-items: start;
 }
-
 
 .bio-section__content p {
   font-size: 1.05rem;

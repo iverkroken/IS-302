@@ -1,6 +1,12 @@
 ﻿/* ── Projects section ────────────────────────────────────────────── */
 .projects-section {
-  margin-top: 80px;
+  margin-top: 0;
+}
+
+.projects-divider {
+  border: none;
+  border-top: 1px solid rgba(255, 255, 255, 0.15);
+  padding-bottom: 2rem;
 }
 
 .projects-section__heading {
@@ -12,7 +18,7 @@
 .projects-section__sub {
   font-size: 0.95rem;
   color: var(--silver);
-  margin-bottom: 40px;
+  margin-bottom: 20px;
 }
 
 .projects-grid {
@@ -25,7 +31,7 @@
   background: var(--ash);
   border: 1px solid rgba(255, 255, 255, 0.06);
   border-radius: 16px;
-  padding: 28px;
+  padding: 21px;
   display: flex;
   flex-direction: column;
   gap: 20px;

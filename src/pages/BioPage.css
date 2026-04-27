@@ -24,12 +24,11 @@
 .bio-content {
   display: flex;
   flex-direction: column;
-  gap: .5rem;
   margin-top: .5rem;
 }
 
 .bio-section {
-  padding-bottom: 2rem;
+  padding-bottom: 0;
 }
 
 .bio-section h2 {

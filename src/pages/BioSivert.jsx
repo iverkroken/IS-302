@@ -26,7 +26,6 @@ export default function BioSivert() {
           <BioHeader member={member} />
 
           <div className="bio-content">
-            <BioCategoryWrapper>
               <BioImageSection title="Mine interesser" image={`${import.meta.env.BASE_URL}images/sivert/klatring.jpg`}>
                 <p> Utenom skolearbeid og utviklig er jeg også veldig glad i spill, klarting, fridykking og løping.</p>
                 <p>Klatring har steget i interessene mine gjennom årene som student, der det startet rolig i starten av studietiden min
@@ -43,7 +42,6 @@ export default function BioSivert() {
                 og utforsker noe som ikke mange ser så ofte i livet sitt. Å lette etter akvatisk liv eller utforske korallrev er unikt
                 og spennende der du ikke .</p>
               </BioImageSection>
-            </BioCategoryWrapper>
           </div>
         </BioPageWrapper>
       </div>

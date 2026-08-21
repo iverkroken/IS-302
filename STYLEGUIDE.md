@@ -7,19 +7,19 @@ Follow these guidelines when making any UI changes.
 
 ## Color Palette
 
-| Token       | Value     | Usage                              |
-|-------------|-----------|-------------------------------------|
-| `--ink`     | `#0a0a0a` | Page background                    |
-| `--stone`   | `#111111` | Secondary background (mobile nav)  |
-| `--ash`     | `#1c1c1e` | Card backgrounds                   |
-| `--fog`     | `#2a2a2c` | Input backgrounds, subtle fills    |
-| `--mist`    | `#3a3a3c` | Borders, disabled states           |
-| `--silver`  | `#8e8e93` | Secondary text, metadata           |
-| `--light`   | `#ebebf0` | Body text                          |
-| `--snow`    | `#f5f5f7` | Headings, primary text             |
-| `--accent`  | `#e8ff47` | Lime accent — CTAs, active states, tags |
-| `--glow`    | `#b8ff00` | Accent hover state                 |
-| `--warm`    | `#ff6b35` | Reserved for warnings/highlights   |
+| Token      | Value     | Usage                                   |
+|------------|-----------|-----------------------------------------|
+| `--ink`    | `#0a0a0a` | Page background                         |
+| `--stone`  | `#111111` | Secondary background (mobile nav)       |
+| `--ash`    | `#1c1c1e` | Card backgrounds                        |
+| `--fog`    | `#2a2a2c` | Input backgrounds, subtle fills         |
+| `--mist`   | `#3a3a3c` | Borders, disabled states                |
+| `--silver` | `#8e8e93` | Secondary text, metadata                |
+| `--light`  | `#ebebf0` | Body text                               |
+| `--snow`   | `#f5f5f7` | Headings, primary text                  |
+| `--accent` | `#e8ff47` | Lime accent — CTAs, active states, tags |
+| `--glow`   | `#b8ff00` | Accent hover state                      |
+| `--warm`   | `#ff6b35` | Reserved for warnings/highlights        |
 
 **Rules:**
 - Never use pure white (`#ffffff`) — use `--snow` or `--light`
@@ -67,7 +67,7 @@ Follow these guidelines when making any UI changes.
 .container--wide { max-width: 100%; padding: 0 40px; }
 ```
 
-- Use `.container` for text-heavy pages (Om oss, Dagbok, Status, Refleksjon)
+- Use `.container` for text-heavy pages (Om oss, Team, intro- og info-sider)
 - Use `.container--wide` for visual grids (Team page)
 - All layouts are responsive — test at 420px, 700px, 1100px, 1440px
 

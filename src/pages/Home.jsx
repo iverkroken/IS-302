@@ -81,11 +81,8 @@ export default function Home() {
         <section className="home-links">
           <div className="container home-links__grid" ref={linksRef}>
             {[
-              { to: '/oppgave',    label: 'Oppgave',     desc: 'Hva vi skal gjøre' },
-              { to: '/status-1',   label: 'Status 1',    desc: 'Første delrapport' },
-              { to: '/status-2',   label: 'Status 2',    desc: 'Andre delrapport' },
-              { to: '/dagbok',     label: 'Dagbok',      desc: 'Ukentlige logginnlegg' },
-              { to: '/refleksjon', label: 'Refleksjon',  desc: 'Hva vi sitter igjen med' },
+              { to: '/om-oss', label: 'Om oss', desc: 'Hva vi holder på med' },
+              { to: '/team',   label: 'Team',   desc: 'Møt gruppen' },
             ].map(({ to, label, desc }) => (
                 <Link key={to} to={to} className="home-link-card">
                   <p className="home-link-card__label">{label}</p>

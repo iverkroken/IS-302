@@ -43,8 +43,7 @@ export default function Home() {
                 <span className="accent">å gjøre</span>
               </h1>
               <p className="hero__sub" ref={subRef}>
-                En gruppe IT-studenter ved UiA som dokumenterer veien gjennom
-                praksisemnet, fra oppstart til refleksjon.
+                En engasjert gruppe IT-studenter ved UiA som er klare for et spennende bachelorprosjekt!
               </p>
               <div className="hero__cta" ref={ctaRef}>
                 <Link to="/om-oss" className="btn btn--primary">Introduksjons-video</Link>
@@ -71,9 +70,10 @@ export default function Home() {
             <p className="section-tag mono">Om prosjektet</p>
             <h2 className="section-title">Hva er IS-302?</h2>
             <p className="section-body">
-              IS-302 er et praksisemne ved Universitetet i Agder der vi som gruppe
-              arbeider ute i en bedrift over et semester. Denne siden dokumenterer
-              oppgaven vår, hvem vi er, og hva vi lærer underveis.
+              <p className="section-body">
+                IS-310 er et forberedende emne til bachelorprosjektet i informasjonssystemer. I løpet av semesteret
+                skal vi inngå en samarbeidsavtale med en bedrift eller organisasjon.
+              </p>
             </p>
           </div>
         </section>

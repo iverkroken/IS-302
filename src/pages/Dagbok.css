@@ -28,7 +28,7 @@
 
 .diary-entry {
   display: grid;
-  grid-template-columns: 140px 1fr auto;
+  grid-template-columns: 140px 1fr;
   align-items: start;
   gap: 32px;
   padding: 28px 0;
@@ -63,13 +63,6 @@
   color: var(--silver);
   line-height: 1.75;
   white-space: pre-wrap;
-}
-
-.diary-entry__actions {
-  display: flex;
-  flex-direction: column;
-  gap: 6px;
-  padding-top: 4px;
 }
 
 /* ── Form ──────────────────────────────────────────────────────── */
@@ -201,10 +194,6 @@
   .diary-entry {
     grid-template-columns: 1fr;
     gap: 12px;
-  }
-
-  .diary-entry__actions {
-    flex-direction: row;
   }
 
   .diary-form {

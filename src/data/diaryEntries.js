@@ -28,4 +28,20 @@ export const diaryEntries = [
     content: 'Vi startet dagen med et møte hvor vi gikk gjennom og oppsummerte hovedpunktene fra intervjuet med Edvart. Vi diskuterte funnene fra intervjuet og vurderte hvilke behov og funksjoner som burde prioriteres videre i prosjektet. Etter en felles gjennomgang kom vi frem til en prioritert liste over oppgaver og funksjonalitet vi ønsket å fokusere på fremover. Denne listen ble deretter lagt inn i Trello for å få en bedre oversikt over videre arbeid og prioriteringer.\n\n' +
         'Resten av dagen brukte vi i hovedsak på å utarbeide wireframes for de viktigste sidene i applikasjonen. Her fokuserte vi på struktur, innhold og navigasjon, med mål om å gjøre brukeropplevelsen så enkel og oversiktlig som mulig. Arbeidet med wireframene ga oss et tydeligere bilde av hvordan hovedsidene i MVP-en skulle utformes, og ga et godt grunnlag for den videre utviklingen.\n'
   },
+    {
+        id: 5,
+        week: 'Uke 36',
+        date: '01.09.2026',
+        title: 'Wireframes',
+        content: 'I dag brukte vi tiden på å fortsette arbeidet med wireframes i Base44. Vi laget 4 ulike eksempler og forslag til hvordan løsningen kan se ut, slik at vi har ulike alternativer å presentere og diskutere videre.\n' +
+            'Vi fortsatte også arbeidet med å utarbeide de ulike funksjonene i appen. Vi så på hvordan funksjonene kan utformes og hvordan de kan fungere sammen på en oversiktlig og brukervennlig måte.\n' +
+            'Målet med arbeidet var å utforske ulike muligheter for både design og funksjonalitet, slik at vi får et godt grunnlag for videre utvikling og presentasjon av appen.\n.\n'
+    },
+    {
+        id: 6,
+        week: 'Uke 36',
+        date: '03.09.2026',
+        title: 'Wireframes',
+        content: 'Hovedfokuset i dagens møte var å bli ferdig med high-fidelity wireframes. Vi sendte også e-post til kontaktpersoner hos Kartverket for å prøve å avtale et møte der vi kan vise frem wireframene for dem og få innspill på hva de liker og hva de eventuelt ønsker endret. Når vi har fått denne tilbakemeldingen, går vi videre til å lage en prototype av appen. I tillegg har vi begynt å utforske ulike tech stack og verktøy som kan brukes til å lage et API.\n'
+    },
 ]

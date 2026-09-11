@@ -44,4 +44,20 @@ export const diaryEntries = [
         title: 'Wireframes',
         content: 'Hovedfokuset i dagens møte var å bli ferdig med high-fidelity wireframes. Vi sendte også e-post til kontaktpersoner hos Kartverket for å prøve å avtale et møte der vi kan vise frem wireframene for dem og få innspill på hva de liker og hva de eventuelt ønsker endret. Når vi har fått denne tilbakemeldingen, går vi videre til å lage en prototype av appen. I tillegg har vi begynt å utforske ulike tech stack og verktøy som kan brukes til å lage et API.\n'
     },
+
+    {
+        id: 7,
+        week: 'Uke 37',
+        date: '10.09.2026',
+        title: 'Wireframes',
+        content: 'I dag har vi fortsatt arbeidet med high-fidelity wireframes i Figma. Vi begynner å nærme oss ferdigstillingen av sidene, men det gjenstår fortsatt noen detaljer og justeringer.\n' +
+            'I tillegg hadde vi et møte med Yonathan og Bjørn Dennis fra NRL, hvor vi presenterte wireframene våre og fikk nyttige tilbakemeldinger på løsningen. Videre gikk vi gjennom våre tanker og planer for backend- og API-løsningen, og diskuterte hvordan dette kan bygges.\n \n'
+    },
+    {
+        id: 8,
+        week: 'Uke 37',
+        date: '11.09.2026',
+        title: 'Wireframes',
+        content: 'Hovedfokuset i dag var å bli ferdig med alle high-fidelity wireframes i Figma, og det kom vi i mål med. Vi startet også å kode prototypen. I tillegg planla vi hva som skal gjøres til neste uke, slik at alle har fått tildelt et ansvarsområde på prototypen. På grunn av mye annet opplegg neste uke må alle jobbe hjemmefra, og vi har derfor fordelt arbeidet slik at det er oversiktlig hvem som gjør hva.\n \n \n'
+    },
 ]

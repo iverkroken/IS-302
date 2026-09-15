@@ -25,11 +25,19 @@ export default function Status1() {
         </div>
 
         <div className="status1__sections">
-          <BioTextSection title="Foreløpig overskrift">
+          <BioTextSection title="Kartverket og Norsk Luftambulanse">
             <p>
-              Her kommer en introduksjon til den første statusrapporten.
-              Denne eksempelteksten erstattes med en beskrivelse av arbeidet,
-              målene og fremdriften i prosjektet.
+              Vi jobber i sammarbeid med Norsk Luftambulanse og Karverket, med å utvikle en løsning for enkel rapportering
+              av luftfartshindre for helikoptre under flygning. Videre undersøker vi hvordan den nåværende backend løsningen
+              for rapportering kan forbedres, spesielt med tanke på sikkerhet.
+            </p>
+            <p>
+              Kartverket er statens eldste tenkniske organ som ble etablert i 1773.
+              Kartverket jobber i hovvesak med å formidle nasjonal kart, kartdata og sjø og land registre.
+            </p>
+            <p>
+              Norsk Luftambulanse er en ideell organisasjon, etablert i 1977. Luftambulansen har som formål å tilby raskest
+              mulig hjelp til akutt skadde eller syke, uansett hvor en bor eller befinner seg.
             </p>
           </BioTextSection>
 
@@ -39,7 +47,7 @@ export default function Status1() {
               controls
               playsInline
               preload="metadata"
-              aria-label="Eksempelvideo for Status 1"
+              aria-label="Status 1 video"
             >
               <source src={placeholderVideo} type="video/mp4" />
               Nettleseren din støtter ikke videoavspilling.
@@ -47,12 +55,23 @@ export default function Status1() {
             </video>
           </BioTextSection>
 
-          <BioTextSection title="Videre arbeid">
+          <BioTextSection title="Vårt arbeid frem til nå">
             <p>
-              Her kommer mer informasjon om erfaringene så langt og planene
-              for neste fase. Denne eksempelteksten erstattes med refleksjoner,
-              utfordringer og oppgaver vi skal jobbe videre med.
+              Frem til nå har vi jobbet med å utvikle et brukergrensesnitt design i figma, basert på det beste fra tidligre
+              løsninger, samt HemsWX og oppgavene fra 3. semester. Vi har jobbet sammen med Luftambulansen med å trekke frem
+              de viktigste delene for å skape et brukervennlig design.
             </p>
+            <p>
+              Vi jobber også nå med å skape en prototype utifra designene, slik at piloter kan teste det. Vi jobber også nå
+              med å utvikle ulike versjoner av brukergrensesnittet, for å kunne brukerteste hva pilotene foretrekker.
+            </p>
+            <p>
+              <a href={"https://gorilla-mode.github.io/nrlprototype/"}>Klikk her for å åpne prototypen!</a>
+            </p>
+            <hr/>
+          <p>
+            Vi jobber også med å for
+          </p>
           </BioTextSection>
 
           <BioTextSection title="Bilder fra prosjektet">

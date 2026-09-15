@@ -5,13 +5,13 @@ import './Page.css'
 import './Status1.css'
 
 const placeholderImages = [
-  `${import.meta.env.BASE_URL}images/eira/IMG_0198.jpg`,
-  `${import.meta.env.BASE_URL}images/eira/IMG_2593.jpg`,
-  `${import.meta.env.BASE_URL}images/eira/IMG_3687.jpg`,
-  `${import.meta.env.BASE_URL}images/eira/IMG_4204.jpg`,
+  `${import.meta.env.BASE_URL}images/status1/IMG_4788.JPG`,
+  `${import.meta.env.BASE_URL}images/status1/IMG_4791.JPG`,
+  `${import.meta.env.BASE_URL}images/status1/IMG_4792.JPG`,
+  `${import.meta.env.BASE_URL}images/status1/IMG_4794.JPG`,
 ]
 
-const placeholderVideo = 'https://github.com/iverkroken/IS-302/releases/download/vid2.0/Timeline.1compress.mp4'
+const placeholderVideo = 'https://github.com/iverkroken/IS-302/releases/download/status1/D7FC3C1E-0E26-4258-8679-35A9A4E6B26F.mov'
 
 export default function Status1() {
   const headRef = useReveal()
@@ -49,7 +49,7 @@ export default function Status1() {
               preload="metadata"
               aria-label="Status 1 video"
             >
-              <source src={placeholderVideo} type="video/mp4" />
+              <source src="https://github.com/iverkroken/IS-302/releases/download/status1.2/A001_09151411_C058-1.mov" type="video/mov" />
               Nettleseren din støtter ikke videoavspilling.
               {' '}<a href={placeholderVideo}>Åpne videoen her.</a>
             </video>

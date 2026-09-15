@@ -69,9 +69,21 @@ export default function Status1() {
               <a href={"https://gorilla-mode.github.io/nrlprototype/"}>Klikk her for å åpne prototypen!</a>
             </p>
             <hr/>
-          <p>
-            Vi jobber også med å for
-          </p>
+            <br/>
+            <p>
+              Vi jobber også med å planlegge hvordan backend løsningens tekonologi og arkitektur skal bli. Vi har nå landet
+              på at dette blir en form for API slik at Luftambulansen kan integrere det inn i deres HemsWX app.
+            </p>
+            <p>
+              Vi har ikke landet på noe mer spesifkt en det, og grunnen til det er at vi fikk vite nylig at hele den nåværende
+              rett i kartet løsningen skulle byttes ut med en ny, og forbedret løsning. Der den nye løsningen skal ha
+              ett stort fokus på sikkerhet og identifisering, slik at en kan bekrefte at de som legger inn ett hinder er
+              den de utgir seg for å være.
+            </p>
+            <p>
+              I de kommende ukene kommer vi til å jobbe tett med NRL temaet for å kartlegge, planlegge og undersøke
+              hvordan den nye løsningen kan oppfylle de forventede kravene.
+            </p>
           </BioTextSection>
 
           <BioTextSection title="Bilder fra prosjektet">

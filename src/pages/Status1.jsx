@@ -11,7 +11,7 @@ const placeholderImages = [
   `${import.meta.env.BASE_URL}images/status1/IMG_4794.JPG`,
 ]
 
-const placeholderVideo = 'https://github.com/iverkroken/IS-302/releases/download/status1/D7FC3C1E-0E26-4258-8679-35A9A4E6B26F.mov'
+const placeholderVideo = 'https://github.com/iverkroken/IS-302/releases/download/Status1.3/UIA_Status1.mp4'
 
 export default function Status1() {
   const headRef = useReveal()
@@ -49,7 +49,7 @@ export default function Status1() {
               preload="metadata"
               aria-label="Status 1 video"
             >
-              <source src="https://github.com/iverkroken/IS-302/releases/download/status1.2/A001_09151411_C058-1.mov" type="video/mov" />
+              <source src={placeholderVideo} type="video/mp4" />
               Nettleseren din støtter ikke videoavspilling.
               {' '}<a href={placeholderVideo}>Åpne videoen her.</a>
             </video>

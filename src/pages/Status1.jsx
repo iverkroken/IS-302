@@ -27,62 +27,81 @@ export default function Status1() {
         <div className="status1__sections">
           <BioTextSection title="Kartverket og Norsk Luftambulanse">
             <p>
-              Vi jobber i sammarbeid med Norsk Luftambulanse og Karverket, med å utvikle en løsning for enkel rapportering
-              av luftfartshindre for helikoptre under flygning. Videre undersøker vi hvordan den nåværende backend løsningen
-              for rapportering kan forbedres, spesielt med tanke på sikkerhet.
+              Vi samarbeider med Kartverket og Norsk Luftambulanse om å utvikle en løsning for enkel rapportering av
+              luftfartshindre for helikoptre under flygning. I tillegg undersøker vi hvordan den eksisterende
+              backend-løsningen for rapportering kan forbedres, med særlig fokus på sikkerhet, identifisering og videre integrasjon.
             </p>
             <p>
-              Kartverket er statens eldste tenkniske organ som ble etablert i 1773.
-              Kartverket jobber i hovvesak med å formidle nasjonal kart, kartdata og sjø og land registre.
+              Kartverket er Norges nasjonale kartmyndighet og statens eldste tekniske etat, etablert i 1773. Kartverket
+              arbeider hovedsakelig med å samle inn, forvalte og formidle geografisk informasjon, kartdata og registre
+              knyttet til land og sjø.
             </p>
             <p>
-              Norsk Luftambulanse er en ideell organisasjon, etablert i 1977. Luftambulansen har som formål å tilby raskest
-              mulig hjelp til akutt skadde eller syke, uansett hvor en bor eller befinner seg.
+              Norsk Luftambulanse er en ideell organisasjon, etablert i 1977. Organisasjonen arbeider for at alvorlig syke
+              og skadde skal få rask og kvalifisert medisinsk hjelp, uavhengig av hvor de befinner seg.
             </p>
           </BioTextSection>
 
           <BioTextSection title="Video fra prosjektet">
-            <video
-              className="status1__video"
-              controls
-              playsInline
-              preload="metadata"
-              aria-label="Status 1 video"
-            >
-              <source src={placeholderVideo} type="video/mp4" />
-              Nettleseren din støtter ikke videoavspilling.
-              {' '}<a href={placeholderVideo}>Åpne videoen her.</a>
-            </video>
+            <figure className="status1__video-figure">
+              <video
+                className="status1__video"
+                controls
+                playsInline
+                preload="metadata"
+                aria-label="Status 1 video"
+              >
+                <source src={placeholderVideo} type="video/mp4" />
+                Nettleseren din støtter ikke videoavspilling.
+                {' '}<a href={placeholderVideo}>Åpne videoen her.</a>
+              </video>
+              <figcaption>Status 1-video</figcaption>
+            </figure>
           </BioTextSection>
 
           <BioTextSection title="Vårt arbeid frem til nå">
             <p>
-              Frem til nå har vi jobbet med å utvikle et brukergrensesnitt design i figma, basert på det beste fra tidligre
-              løsninger, samt HemsWX og oppgavene fra 3. semester. Vi har jobbet sammen med Luftambulansen med å trekke frem
-              de viktigste delene for å skape et brukervennlig design.
+              Frem til nå har vi arbeidet med å utvikle design for brukergrensesnittet i Figma. Designet bygger på
+              erfaringer fra tidligere løsninger, HemsWX og arbeidet vårt fra tredje semester.
             </p>
             <p>
-              Vi jobber også nå med å skape en prototype utifra designene, slik at piloter kan teste det. Vi jobber også nå
-              med å utvikle ulike versjoner av brukergrensesnittet, for å kunne brukerteste hva pilotene foretrekker.
+              I samarbeid med Norsk Luftambulanse har vi identifisert hvilke funksjoner og deler av løsningen som er
+              viktigst for pilotene. Dette har dannet grunnlaget for utviklingen av et mest mulig brukervennlig og praktisk grensesnitt.
             </p>
             <p>
-              <a href={"https://gorilla-mode.github.io/nrlprototype/"}>Klikk her for å åpne prototypen!</a>
+              Vi arbeider nå med å utvikle en prototype basert på designene, slik at piloter kan teste løsningen i
+              praksis. Samtidig utvikler vi ulike varianter av brukergrensesnittet for å kunne brukerteste hvilke
+              løsninger pilotene foretrekker.
             </p>
-            <hr/>
-            <br/>
+            <div className="status1__prototype-action">
+              <a className="status1__prototype-button" href="https://gorilla-mode.github.io/nrlprototype/">
+                Åpne prototypen
+              </a>
+            </div>
+            <hr className="status1__divider" />
             <p>
-              Vi jobber også med å planlegge hvordan backend løsningens tekonologi og arkitektur skal bli. Vi har nå landet
-              på at dette blir en form for API slik at Luftambulansen kan integrere det inn i deres HemsWX app.
+              Vi arbeider også med å planlegge teknologi og arkitektur for backend-løsningen. Foreløpig har vi landet
+              på at løsningen skal bygges som et API, slik at Norsk Luftambulanse kan integrere
+              rapporteringsfunksjonaliteten direkte i HemsWX.
             </p>
             <p>
-              Vi har ikke landet på noe mer spesifkt en det, og grunnen til det er at vi fikk vite nylig at hele den nåværende
-              rett i kartet løsningen skulle byttes ut med en ny, og forbedret løsning. Der den nye løsningen skal ha
-              ett stort fokus på sikkerhet og identifisering, slik at en kan bekrefte at de som legger inn ett hinder er
-              den de utgir seg for å være.
+              Vi har foreløpig ikke bestemt den endelige tekniske løsningen. En viktig årsak er at vi nylig fikk
+              informasjon om at dagens Rett i kartet-løsning skal erstattes av en ny og forbedret løsning, og at vårt
+              prosjekt potensielt kan danne grunnlaget for denne nye løsningen.
             </p>
             <p>
-              I de kommende ukene kommer vi til å jobbe tett med NRL temaet for å kartlegge, planlegge og undersøke
-              hvordan den nye løsningen kan oppfylle de forventede kravene.
+              Arbeidet vårt handler derfor ikke bare om å utvikle en separat rapporteringsløsning for Norsk
+              Luftambulanse, men også om å undersøke hvordan løsningen vi utvikler kan videreføres som en mulig
+              erstatning for dagens Rett i kartet-løsning.
+            </p>
+            <p>
+              Den nye løsningen skal blant annet ha større fokus på sikkerhet og sikker identifisering av brukere,
+              slik at det i større grad kan bekreftes hvem som står bak en innrapportering av et luftfartshinder.
+            </p>
+            <p>
+              I de kommende ukene skal vi derfor jobbe tett med NRL-teamet for å kartlegge behov, planlegge arkitekturen
+              og undersøke hvordan den nye løsningen kan oppfylle kravene til blant annet sikkerhet, identifisering,
+              brukervennlighet og integrasjon.
             </p>
           </BioTextSection>
 

@@ -60,4 +60,18 @@ export const diaryEntries = [
         title: 'Wireframes',
         content: 'Hovedfokuset i dag var å bli ferdig med alle high-fidelity wireframes i Figma, og det kom vi i mål med. Vi startet også å kode prototypen. I tillegg planla vi hva som skal gjøres til neste uke, slik at alle har fått tildelt et ansvarsområde på prototypen. På grunn av mye annet opplegg neste uke må alle jobbe hjemmefra, og vi har derfor fordelt arbeidet slik at det er oversiktlig hvem som gjør hva.\n \n \n'
     },
+    {
+        id: 9,
+        week: 'Uke 38',
+        date: '15.09.2026 - 17.09.2026',
+        title: 'Techpoint',
+        content: 'Denne uken har vi ikke hatt så mye mulighet til å være på kontoret. Kartverket inviterte oss til å være veiledere for ungdom på Techpoint Future på tirsdag, og vi fikk konferansepass til Techpoint både onsdag og torsdag. På onsdag lærte vi mye nytt om kunstig intelligens. På torsdag fulgte vi foredrag om sikkerhet, siden sikkerhet blir et viktig fokusområde i prosjektet fremover.\n.\n \n'
+    },
+    {
+        id: 10,
+        week: 'Uke 38',
+        date: '18.09.2026',
+        title: 'Wireframes',
+        content: 'I dag jobbet noen av oss hjemmefra fordi vi hadde forelesning, mens resten var på kontoret hos Kartverket. Denne uken har vi jobbet med å ferdigstille prototypen og få på plass et helhetlig design som kan evalueres og vises frem. Vi venter derfor litt med back-end, men vi har startet researchen. Vi hadde også møte med UX-designer Emilie Konow, som ga oss gode tilbakemeldinger på designet. Neste uke skal vi bruke tilbakemeldingene hennes til å forbedre designet. Målet er at prototypen skal være ferdig før demoen neste uke.\n \n \n'
+    },
 ]

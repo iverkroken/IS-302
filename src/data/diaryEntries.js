@@ -60,4 +60,18 @@ export const diaryEntries = [
         title: 'Wireframes',
         content: 'Hovedfokuset i dag var å bli ferdig med alle high-fidelity wireframes i Figma, og det kom vi i mål med. Vi startet også å kode prototypen. I tillegg planla vi hva som skal gjøres til neste uke, slik at alle har fått tildelt et ansvarsområde på prototypen. På grunn av mye annet opplegg neste uke må alle jobbe hjemmefra, og vi har derfor fordelt arbeidet slik at det er oversiktlig hvem som gjør hva.\n \n \n'
     },
+    {
+        id: 11,
+        week: 'Uke 39',
+        date: '24.09.2026',
+        title: 'Sikkerhet',
+        content: 'Vi brukte dagen på research om sikkerhet, som er en viktig forutsetning for det videre arbeidet med prosjektet. Vi forberedte oss også på demoen som skal holdes i morgen, 25.09.\n'
+    },
+    {
+        id: 12,
+        week: 'Uke 39',
+        date: '25.09.2026',
+        title: 'Demo',
+        content: 'Dagen startet med et planleggingsmøte for neste uke, siden flere reiser hjem i høstferien. Vi fordelte oppgaver og ble enige om videre arbeid.\n\nDeretter holdt vi demo for ansatte i Kartverket, med Dennis fra NRL-teamet og Edvard Murr fra Luftambulansen til stede. Vi presenterte prosjektet vårt sammen med den andre praksisgruppen hos Kartverket. Demoen ga oss mye ny innsikt i hva som kan forbedres. Etterpå hadde vi et kort møte med Edvard Murr, der vi fikk nyttige tilbakemeldinger.\n\nVidere arbeid:\n- Sende ut e-poster\n- Ferdigstille prototypen\n- Lage et skjema for brukerundersøkelse, slik at vi kan starte brukertesting med piloter\n'
+    }
 ]

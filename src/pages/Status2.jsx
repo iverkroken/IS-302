@@ -10,7 +10,7 @@ const placeholderImages = [
     `${import.meta.env.BASE_URL}images/Status2/IMG_0681.jpg`,
 ]
 
-const placeholderVideo = 'https://github.com/iverkroken/IS-302/releases/download/vid2.0/Timeline.1compress.mp4'
+const placeholderVideo = 'https://github.com/iverkroken/IS-302/releases/download/status2/UIA_status2.mp4'
 
 export default function Status2() {
     const headRef = useReveal()

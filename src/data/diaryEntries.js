@@ -74,4 +74,18 @@ export const diaryEntries = [
         title: 'Wireframes',
         content: 'I dag jobbet noen av oss hjemmefra fordi vi hadde forelesning, mens resten var på kontoret hos Kartverket. Denne uken har vi jobbet med å ferdigstille prototypen og få på plass et helhetlig design som kan evalueres og vises frem. Vi venter derfor litt med back-end, men vi har startet researchen. Vi hadde også møte med UX-designer Emilie Konow, som ga oss gode tilbakemeldinger på designet. Neste uke skal vi bruke tilbakemeldingene hennes til å forbedre designet. Målet er at prototypen skal være ferdig før demoen neste uke.\n \n \n'
     },
+    {
+        id: 11,
+        week: 'Uke 41',
+        date: '06.10.2026',
+        title: 'Prototype ferdig',
+        content: 'Vi ferdigstilte prototypen og er godt i gang med utviklingen av selve nettsiden. Vi sendte også en e-post til Bjørn Dennis med forslag til backend-løsning. I tillegg har vi gjort research på teknologivalg og sikkerhet, for å finne ut hvilke verktøy og rammeverk som passer best for løsningen og hvordan vi kan sikre den på en god måte.\n \n \n'
+    },
+    {
+        id: 12,
+        week: 'Uke 41',
+        date: '09.10.2026',
+        title: 'Veiledning og QGIS',
+        content: 'Vi hadde møte med Edward Murr og fikk veiledning på arbeidet så langt. Videre har vi jobbet med å teste og sette opp en beskyttet QGIS-løsning, for å se om dette kan fungere som løsning for prosjektet.\n \n \n'
+    },
 ]

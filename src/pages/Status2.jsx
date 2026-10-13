@@ -5,13 +5,12 @@ import './Page.css'
 import './Status2.css'
 
 const placeholderImages = [
-    `${import.meta.env.BASE_URL}images/status1/IMG_4788.JPG`,
-    `${import.meta.env.BASE_URL}images/status1/IMG_4791.JPG`,
-    `${import.meta.env.BASE_URL}images/status1/IMG_4792.JPG`,
-    `${import.meta.env.BASE_URL}images/status1/IMG_4794.JPG`,
+    { src: `${import.meta.env.BASE_URL}images/Status2/IMG_0675.jpg`, position: 'center bottom' },
+    `${import.meta.env.BASE_URL}images/Status2/IMG_0677.jpg`,
+    `${import.meta.env.BASE_URL}images/Status2/IMG_0681.jpg`,
 ]
 
-const placeholderVideo = 'https://github.com/iverkroken/IS-302/releases/download/vid2.0/Timeline.1compress.mp4'
+const placeholderVideo = 'https://github.com/iverkroken/IS-302/releases/download/status2/UIA_status2.mp4'
 
 export default function Status2() {
     const headRef = useReveal()

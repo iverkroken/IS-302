@@ -45,7 +45,16 @@ export default function ImageCarousel({ images, title }) {
     return null
   }
 
+  // Et bilde kan være en streng (bare URL) eller et objekt { src, position, fit }
+  // der position/fit styrer utsnittet i den store rammen (f.eks. position: 'center bottom').
+  const getSrc = (image) => (typeof image === 'string' ? image : image.src)
+
   const currentImage = images[currentIndex]
+  const currentSrc = getSrc(currentImage)
+  const currentStyle = typeof currentImage === 'string' ? undefined : {
+    objectPosition: currentImage.position,
+    objectFit: currentImage.fit,
+  }
 
   return (
     <>
@@ -53,9 +62,10 @@ export default function ImageCarousel({ images, title }) {
         <div className="image-carousel__container">
           <div className="image-carousel__frame">
             <img
-              src={currentImage}
+              src={currentSrc}
               alt={`${title} - Slide ${currentIndex + 1}`}
               className="image-carousel__image"
+              style={currentStyle}
               onClick={() => setIsExpanded(true)}
             />
             <button
@@ -98,7 +108,7 @@ export default function ImageCarousel({ images, title }) {
                 onClick={() => goToSlide(index)}
                 aria-label={`Go to slide ${index + 1}`}
               >
-                <img src={image} alt={`Thumbnail ${index + 1}`} />
+                <img src={getSrc(image)} alt={`Thumbnail ${index + 1}`} />
               </button>
             ))}
           </div>
@@ -118,7 +128,7 @@ export default function ImageCarousel({ images, title }) {
             ✕
           </button>
           <img
-            src={currentImage}
+            src={currentSrc}
             alt={`${title} - Expanded`}
             className="image-carousel__modal-image"
             onClick={(e) => e.stopPropagation()}

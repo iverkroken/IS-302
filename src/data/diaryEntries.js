@@ -44,7 +44,7 @@ export const diaryEntries = [
         title: 'Wireframes',
         content: 'Hovedfokuset i dagens møte var å bli ferdig med high-fidelity wireframes. Vi sendte også e-post til kontaktpersoner hos Kartverket for å prøve å avtale et møte der vi kan vise frem wireframene for dem og få innspill på hva de liker og hva de eventuelt ønsker endret. Når vi har fått denne tilbakemeldingen, går vi videre til å lage en prototype av appen. I tillegg har vi begynt å utforske ulike tech stack og verktøy som kan brukes til å lage et API.\n'
     },
-
+ 
     {
         id: 7,
         week: 'Uke 37',
@@ -59,6 +59,20 @@ export const diaryEntries = [
         date: '11.09.2026',
         title: 'Wireframes',
         content: 'Hovedfokuset i dag var å bli ferdig med alle high-fidelity wireframes i Figma, og det kom vi i mål med. Vi startet også å kode prototypen. I tillegg planla vi hva som skal gjøres til neste uke, slik at alle har fått tildelt et ansvarsområde på prototypen. På grunn av mye annet opplegg neste uke må alle jobbe hjemmefra, og vi har derfor fordelt arbeidet slik at det er oversiktlig hvem som gjør hva.\n \n \n'
+    },
+    {
+        id: 9,
+        week: 'Uke 38',
+        date: '15.09.2026 - 17.09.2026',
+        title: 'Techpoint',
+        content: 'Denne uken har vi ikke hatt så mye mulighet til å være på kontoret. Kartverket inviterte oss til å være veiledere for ungdom på Techpoint Future på tirsdag, og vi fikk konferansepass til Techpoint både onsdag og torsdag. På onsdag lærte vi mye nytt om kunstig intelligens. På torsdag fulgte vi foredrag om sikkerhet, siden sikkerhet blir et viktig fokusområde i prosjektet fremover.\n.\n \n'
+    },
+    {
+        id: 10,
+        week: 'Uke 38',
+        date: '18.09.2026',
+        title: 'Wireframes',
+        content: 'I dag jobbet noen av oss hjemmefra fordi vi hadde forelesning, mens resten var på kontoret hos Kartverket. Denne uken har vi jobbet med å ferdigstille prototypen og få på plass et helhetlig design som kan evalueres og vises frem. Vi venter derfor litt med back-end, men vi har startet researchen. Vi hadde også møte med UX-designer Emilie Konow, som ga oss gode tilbakemeldinger på designet. Neste uke skal vi bruke tilbakemeldingene hennes til å forbedre designet. Målet er at prototypen skal være ferdig før demoen neste uke.\n \n \n'
     },
     {
         id: 11,
@@ -76,16 +90,31 @@ export const diaryEntries = [
     },
     {
         id: 13,
+        week: 'Uke 41',
+        date: '06.10.2026',
+        title: 'Prototype ferdig',
+        content: 'Vi ferdigstilte prototypen og er godt i gang med utviklingen av selve nettsiden. Vi sendte også en e-post til Bjørn Dennis med forslag til backend-løsning. I tillegg har vi gjort research på teknologivalg og sikkerhet, for å finne ut hvilke verktøy og rammeverk som passer best for løsningen og hvordan vi kan sikre den på en god måte.\n \n \n'
+    },
+    {
+        id: 14,
+        week: 'Uke 41',
+        date: '09.10.2026',
+        title: 'Veiledning og QGIS',
+        content: 'Vi hadde møte med Edward Murr og fikk veiledning på arbeidet så langt. Videre har vi jobbet med å teste og sette opp en beskyttet QGIS-løsning, for å se om dette kan fungere som løsning for prosjektet.\n \n \n'
+    },
+    {
+        id: 15,
         week: 'Uke 42',
         date: '13.10.2026',
         title: 'Arkitektur og filkonvertering',
         content: 'Jobbet med arkitekturen og fortsatte med konverteringen av filformatet.'
     },
     {
-        id: 14,
+        id: 16,
         week: 'Uke 42',
         date: '15.10.2026',
         title: 'Veiledning om arkitektur og sikkerhet',
-        content: 'Hadde møte med Bjørn, Dennis og Yonatan for videre veiledning om hvilken arkitektur vi bør bruke. Vi stilte spørsmål om sikkerhet og om arkitekturen vi hadde tenkt å bruke i prosjektet.'
+        content: 'Hadde møte med Bjørn Dennis og Yonathan fra NRL for videre veiledning om hvilken arkitektur vi bør bruke. Vi stilte spørsmål om sikkerhet og om arkitekturen vi hadde tenkt å bruke i prosjektet.'
     },
 ]
+

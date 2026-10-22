@@ -44,7 +44,7 @@ export const diaryEntries = [
         title: 'Wireframes',
         content: 'Hovedfokuset i dagens møte var å bli ferdig med high-fidelity wireframes. Vi sendte også e-post til kontaktpersoner hos Kartverket for å prøve å avtale et møte der vi kan vise frem wireframene for dem og få innspill på hva de liker og hva de eventuelt ønsker endret. Når vi har fått denne tilbakemeldingen, går vi videre til å lage en prototype av appen. I tillegg har vi begynt å utforske ulike tech stack og verktøy som kan brukes til å lage et API.\n'
     },
-
+ 
     {
         id: 7,
         week: 'Uke 37',
@@ -76,16 +76,45 @@ export const diaryEntries = [
     },
     {
         id: 11,
+        week: 'Uke 39',
+        date: '24.09.2026',
+        title: 'Sikkerhet',
+        content: 'Vi brukte dagen på research om sikkerhet, som er en viktig forutsetning for det videre arbeidet med prosjektet. Vi forberedte oss også på demoen som skal holdes i morgen, 25.09.\n'
+    },
+    {
+        id: 12,
+        week: 'Uke 39',
+        date: '25.09.2026',
+        title: 'Demo',
+        content: 'Dagen startet med et planleggingsmøte for neste uke, siden flere reiser hjem i høstferien. Vi fordelte oppgaver og ble enige om videre arbeid.\n\nDeretter holdt vi demo for ansatte i Kartverket, med Dennis fra NRL-teamet og Edvard Murr fra Luftambulansen til stede. Vi presenterte prosjektet vårt sammen med den andre praksisgruppen hos Kartverket. Demoen ga oss mye ny innsikt i hva som kan forbedres. Etterpå hadde vi et kort møte med Edvard Murr, der vi fikk nyttige tilbakemeldinger.\n\nVidere arbeid:\n- Sende ut e-poster\n- Ferdigstille prototypen\n- Lage et skjema for brukerundersøkelse, slik at vi kan starte brukertesting med piloter\n'
+    },
+    {
+        id: 13,
         week: 'Uke 41',
         date: '06.10.2026',
         title: 'Prototype ferdig',
         content: 'Vi ferdigstilte prototypen og er godt i gang med utviklingen av selve nettsiden. Vi sendte også en e-post til Bjørn Dennis med forslag til backend-løsning. I tillegg har vi gjort research på teknologivalg og sikkerhet, for å finne ut hvilke verktøy og rammeverk som passer best for løsningen og hvordan vi kan sikre den på en god måte.\n \n \n'
     },
     {
-        id: 12,
+        id: 14,
         week: 'Uke 41',
         date: '09.10.2026',
         title: 'Veiledning og QGIS',
         content: 'Vi hadde møte med Edward Murr og fikk veiledning på arbeidet så langt. Videre har vi jobbet med å teste og sette opp en beskyttet QGIS-løsning, for å se om dette kan fungere som løsning for prosjektet.\n \n \n'
     },
+    {
+        id: 15,
+        week: 'Uke 42',
+        date: '13.10.2026',
+        title: 'Arkitektur og filkonvertering',
+        content: 'Jobbet med arkitekturen og fortsatte med konverteringen av filformatet.'
+    },
+    {
+        id: 16,
+        week: 'Uke 42',
+        date: '15.10.2026',
+        title: 'Veiledning om arkitektur og sikkerhet',
+        content: 'Hadde møte med Bjørn Dennis og Yonathan fra NRL for videre veiledning om hvilken arkitektur vi bør bruke. Vi stilte spørsmål om sikkerhet og om arkitekturen vi hadde tenkt å bruke i prosjektet.'
+    },
 ]
+

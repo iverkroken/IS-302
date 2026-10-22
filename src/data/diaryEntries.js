@@ -73,5 +73,19 @@ export const diaryEntries = [
         date: '25.09.2026',
         title: 'Demo',
         content: 'Dagen startet med et planleggingsmøte for neste uke, siden flere reiser hjem i høstferien. Vi fordelte oppgaver og ble enige om videre arbeid.\n\nDeretter holdt vi demo for ansatte i Kartverket, med Dennis fra NRL-teamet og Edvard Murr fra Luftambulansen til stede. Vi presenterte prosjektet vårt sammen med den andre praksisgruppen hos Kartverket. Demoen ga oss mye ny innsikt i hva som kan forbedres. Etterpå hadde vi et kort møte med Edvard Murr, der vi fikk nyttige tilbakemeldinger.\n\nVidere arbeid:\n- Sende ut e-poster\n- Ferdigstille prototypen\n- Lage et skjema for brukerundersøkelse, slik at vi kan starte brukertesting med piloter\n'
-    }
+    },
+    {
+        id: 13,
+        week: 'Uke 42',
+        date: '13.10.2026',
+        title: 'Arkitektur og filkonvertering',
+        content: 'Jobbet med arkitekturen og fortsatte med konverteringen av filformatet.'
+    },
+    {
+        id: 14,
+        week: 'Uke 42',
+        date: '15.10.2026',
+        title: 'Veiledning om arkitektur og sikkerhet',
+        content: 'Hadde møte med Bjørn, Dennis og Yonatan for videre veiledning om hvilken arkitektur vi bør bruke. Vi stilte spørsmål om sikkerhet og om arkitekturen vi hadde tenkt å bruke i prosjektet.'
+    },
 ]

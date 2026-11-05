@@ -116,5 +116,33 @@ export const diaryEntries = [
         title: 'Veiledning om arkitektur og sikkerhet',
         content: 'Hadde møte med Bjørn Dennis og Yonathan fra NRL for videre veiledning om hvilken arkitektur vi bør bruke. Vi stilte spørsmål om sikkerhet og om arkitekturen vi hadde tenkt å bruke i prosjektet.'
     },
+    {
+        id: 17,
+        week: 'Uke 43',
+        date: '22.10.2026',
+        title: 'Målsetting og tegneregler for NRL',
+        content: 'Startet dagen med et møte for å sette oss et mål for avslutningen. Jobbet videre med tegneregler for NRL i vektorkart og med backend.'
+    },
+    {
+        id: 18,
+        week: 'Uke 43',
+        date: '23.10.2026',
+        title: 'Mappearkitektur, API og Kotlin Compose',
+        content: 'Startet dagen med daily scrum, der vi fordelte oppgaver og diskuterte prioriteringer for dagen. Jobbet med mappearkitektur og API-et. Fortsatte arbeidet med å sette oss inn i den nye teknologien vi skal ta i bruk i prosjektet, blant annet Kotlin Compose.'
+    },
+    {
+        id: 19,
+        week: 'Uke 44',
+        date: '27.10.2026',
+        title: 'Brukertester og forberedelse til demo',
+        content: 'Sendte mail til Amna, Jonas og Lars Fredrik angående hovedmål for semesteret. Videre jobbet vi med mappearkitektur og gikk gjennom brukertestene sammen. Deretter begynte vi å forbedre prototypen ut fra tilbakemeldingene vi hadde fått. Fullførte også forberedelsene til demoen vi skal ha på Kartverket senere i uken.'
+    },
+    {
+        id: 20,
+        week: 'Uke 44',
+        date: '30.10.2026',
+        title: 'Demo for Kartverket',
+        content: 'Hadde demo for Kartverket, der vi presenterte prosjektet og fremgangen vår for de ansatte og veilederne våre.'
+    },
 ]
 

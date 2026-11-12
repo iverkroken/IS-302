@@ -143,6 +143,26 @@ export const diaryEntries = [
         date: '30.10.2026',
         title: 'Demo for Kartverket',
         content: 'Hadde demo for Kartverket, der vi presenterte prosjektet og fremgangen vår for de ansatte og veilederne våre.'
+    },    {
+        id: 21,
+        week: 'Uke 45',
+        date: '05.11.2026',
+        title: 'Backend og databasemodellering',
+        content: 'Holdt på med backend og databasemodellering.'
+    },
+    {
+        id: 22,
+        week: 'Uke 45',
+        date: '06.11.2026',
+        title: 'Designsystem for MVP',
+        content: 'Startet med designsystem for MVP og fortsatte med backend og databasemodellering.'
+    },
+    {
+        id: 23,
+        week: 'Uke 46',
+        date: '10.11.2026',
+        title: 'Frontend for MVP og ny brukertest',
+        content: 'Begynte å utvikle et enkelt frontend-design for MVP-en. Laget en ny brukertest til pilotene for å teste ut hvilke måter som er best å rapportere et hinder på, og hvordan det er å endre en rapport. Jobbet også med GeoJSON-eksport fra databasen og versjonering for å legge inn hindre i databasen når det kommer nye.'
     },
 ]
 

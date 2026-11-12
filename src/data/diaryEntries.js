@@ -116,5 +116,54 @@ export const diaryEntries = [
         title: 'Veiledning om arkitektur og sikkerhet',
         content: 'Hadde møte med Bjørn Dennis og Yonathan fra NRL for videre veiledning om hvilken arkitektur vi bør bruke. Vi stilte spørsmål om sikkerhet og om arkitekturen vi hadde tenkt å bruke i prosjektet.'
     },
+    {
+        id: 17,
+        week: 'Uke 43',
+        date: '22.10.2026',
+        title: 'Mål for avslutningen',
+        content: 'Startet dagen med møte for å sette oss et mål for avslutningen. Jobbet videre med tegneregler for NRL i vektorkart og backend.'
+    },
+    {
+        id: 18,
+        week: 'Uke 43',
+        date: '23.10.2026',
+        title: 'Mappearkitektur og Kotlin Compose',
+        content: 'Startet dagen med daily scrum, der vi fordelte oppgaver og diskuterte prioriteringer for dagen. Jobbet med mappearkitektur og API-et. Fortsatte arbeidet med å sette oss inn i den nye teknologien vi skal ta i bruk i prosjektet, blant annet Kotlin Compose.'
+    },
+    {
+        id: 19,
+        week: 'Uke 44',
+        date: '27.10.2026',
+        title: 'Brukertester og forberedelser til demo',
+        content: 'Sendte mail til Amna, Jonas og Lars Fredrik angående hovedmål for semesteret. Videre jobbet vi med mappearkitektur og gikk gjennom brukertestene sammen. Deretter begynte vi på å forbedre prototypen i forhold til tilbakemeldingene vi hadde mottatt. Fullførte også forberedelser til demoen vi skal ha på Kartverket senere i uken.'
+    },
+    {
+        id: 20,
+        week: 'Uke 44',
+        date: '30.10.2026',
+        title: 'Demo for Kartverket',
+        content: 'Demo for Kartverket.'
+    },
+    {
+        id: 21,
+        week: 'Uke 45',
+        date: '05.11.2026',
+        title: 'Backend og databasemodellering',
+        content: 'Holdt på med backend og databasemodellering.'
+    },
+    {
+        id: 22,
+        week: 'Uke 45',
+        date: '06.11.2026',
+        title: 'Designsystem for MVP',
+        content: 'Startet med designsystem for MVP og fortsatte med backend og databasemodellering.'
+    },
+    {
+        id: 23,
+        week: 'Uke 46',
+        date: '10.11.2026',
+        title: 'Frontend for MVP og ny brukertest',
+        content: 'Begynte å utvikle et enkelt frontend-design for MVP-en. Laget en ny brukertest til pilotene for å teste ut hvilke måter som er best å rapportere et hinder på, og hvordan det er å endre en rapport. Jobbet også med GeoJSON-eksport fra databasen og versjonering for å legge inn hindre i databasen når det kommer nye.'
+    },
 ]
 
